@@ -13,6 +13,7 @@ export default function Dogs() {
       <h1>This is the dogs component</h1>
       <h3>Here are some dogs</h3>
       <ol>
+        Wow
         {dogs.map((dog) => (
           <li key={dog.id}>{dog.name}</li>
         ))}
